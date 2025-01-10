@@ -1,0 +1,33 @@
+{
+  "name": "netblaze",
+  "version": "0.1.0",
+  "description": "Fancy network Node library",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava --serial"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olankens/netblaze.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/olankens/netblaze/issues"
+  },
+  "homepage": "https://github.com/olankens/netblaze#readme",
+  "dependencies": {
+    "mime-types": "^2.1.35",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^18.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "webtorrent": "^1.9.7"
+  },
+  "devDependencies": {
+    "ava": "^4.3.3",
+    "prettier": "^2.8.8"
+  }
+}
