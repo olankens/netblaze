@@ -23,13 +23,13 @@ Fancy network Node library with several helper functions.
 
 # <samp>GUIDANCE</samp>
 
-### Import the Library
+### Import the library
 
 ```shell
 npm i git://github.com/olankens/netblaze.git
 ```
 
-### Download from Address
+### Download from address
 
 ```js
 import { fromAddress } from "netblaze";
@@ -38,7 +38,7 @@ const address = "https://www.7-zip.org/a/7z2201-x64.exe";
 const fetched = await fromAddress(address);
 ```
 
-### Download from Torrent
+### Download from torrent
 
 ```js
 import { fromTorrent } from "netblaze";
